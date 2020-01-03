@@ -31,21 +31,21 @@ public class TimeExample1
         //compare to example
         if(localTime.compareTo(localTime2)==0)
         {
-        	System.out.println("localDate1 and localDate2 are equal");
+        	System.out.println("localTime1 and localTime2 are equal");
         }else
         {
-    	    System.out.println("localDate1 and localDate2 are not equal");
+    	    System.out.println("localTime1 and localTime2 are not equal");
         }
        
         //isBefore() example
         if(localTime2.isBefore(localTime3))
         {
-    	    System.out.println("localDate2 comes  before localTime3");
+    	    System.out.println("localTime2 comes  before localTime3");
         }
         //is after example
         if(localTime3.isBefore(localTime))
         {
-    	    System.out.println("localDate3 comes after localTime1");
+    	    System.out.println("localTime3 comes after localTime1");
         }
 
 	}
